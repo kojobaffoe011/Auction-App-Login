@@ -35,7 +35,7 @@ public class Login extends JFrame{
         //password
         JPasswordField password  = new JPasswordField("Enter Password...");
         password.setBounds(50,150,300,50);
-        password.setBackground(new Color(50,140,100));
+        password.setBackground(new Color(150,140,150));
         login.add(password);
 
         //sign Up Button
@@ -78,6 +78,7 @@ public class Login extends JFrame{
     public static void main(String[] args) {
         Login window = new Login();
         window.setUndecorated(true);
+        
 
     }
 
